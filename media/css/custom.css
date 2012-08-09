@@ -90,6 +90,11 @@ body {
     list-style: none;
 }
 
+.content img {
+   border: 3px solid #eeeeee;
+}
+
+
 strong {
     font-size: 110%;
 }

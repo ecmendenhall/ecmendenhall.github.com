@@ -102,3 +102,11 @@ strong {
 i {
     font-style: normal;
 }
+
+ul:last-child {
+    padding-bottom: .5em;
+}
+
+ul:first-child {
+    padding-top: .5em;
+}

@@ -1498,18 +1498,18 @@ pre {
   font-size: 10pt; }
 
 #peculiarplant {
-  position: fixed;
+  position: absolute;
   top: 50px; }
 
 #enter {
-  position: fixed;
+  position: absolute;
   background-color: #fdf6e3;
   left: 416px;
-  top: 365px; }
+  top: 360px; }
 
 #epoch {
   font-weight: bold;
-  position: fixed;
+  position: absolute;
   background-color: #fdf6e3;
   left: 416px;
-  top: 350px; }
+  top: 345px; }

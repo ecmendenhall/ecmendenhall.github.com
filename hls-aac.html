@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="iso-8859-1" content="text/html" http-equiv="Content-Type">
+
+<title>VideoJS HLS Demo</title>
+<link rel="stylesheet" href="media/videojs/video-js.css">
+<script src="/media/videojs/video.js"></script>
+<script src="/media/videojs/custom-swf.js"></script>
+</head>
+
+<body>
+
+<div>
+  <div class="clip-preview">
+    <video class="video-js vjs-default-skin" controls="controls"
+      height="240" id="preview" width="320" data-setup="{}">
+      <source src="http://d18z3rdc0p03tc.cloudfront.net/a613356e3f224b4f962d36afff5e2617-playlist.m3u8"
+              type="application/x-mpegURL">
+    </video>
+    <p>This player's <code>&lt;source&gt;</code> element is an <code>.m3u8</code> playlist that points
+       to additional playlists at multiple bitrates. The first of these is an audio-only <code>.aac</code>.</p>
+       <p>We're using a version of videojs built from <a href="https://github.com/videojs/video.js/pull/748">this HLS feature branch.</a></p>
+  </div>
+  <p>With AAC | <a href="/hls.html">Without AAC</a></p>
+</div>
+
+
+</body>
+</html>
